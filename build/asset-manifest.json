@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db32e472.css",
+    "main.js": "/static/js/main.44cc5f84.js",
+    "static/media/ISS_stationary.glb": "/static/media/ISS_stationary.b375df467a38c492e54b.glb",
+    "static/media/earth_4k.jpg": "/static/media/earth_4k.698dd2f0f3f5edab085e.jpg",
+    "static/media/star.png": "/static/media/star.12f9118ddb3f91ac3e4c.png",
+    "static/media/water_4k.png": "/static/media/water_4k.4d1be7fcc6830f45e8a6.png",
+    "static/media/bump_4k.jpg": "/static/media/bump_4k.af33be5e648b2c836df1.jpg",
+    "index.html": "/index.html",
+    "main.db32e472.css.map": "/static/css/main.db32e472.css.map",
+    "main.44cc5f84.js.map": "/static/js/main.44cc5f84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db32e472.css",
+    "static/js/main.44cc5f84.js"
+  ]
+}
