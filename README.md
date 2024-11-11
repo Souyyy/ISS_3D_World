@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
   <img align="center" width="200" src="https://github.com/Souyyy/ISS_3D_World/blob/main/public/sigle.png" alt="ISS 3D World"/>
 </div>
@@ -7,7 +6,7 @@
 
 <h3 align="center">ISS 3D World</h3>
 <p align="center">Visualisation 3D interactive de la Terre avec des données en temps réel d'une API sur la position de  l'ISS.</p>
-<a align="center" href=""><p><strong>DEMO</strong></p></a>
+<a align="center" href="https://souyyy.github.io/ISS_3D_World/" target="_blank"><p><strong>DEMO</strong></p></a>
 
 <div align="center" style="display:flex;">
   <a href="">Raporter un bug</a> · 
