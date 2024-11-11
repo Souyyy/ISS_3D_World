@@ -1,0 +1,38 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #090a12;
+    z-index: 10;
+    animation: Quit1 1s ease 2.5s forwards;
+}
+
+img {
+    animation: Quit 2.5s ease .5s forwards;
+    opacity: 0;
+}
+
+@keyframes Quit {
+    0% { 
+        scale: 0.5;
+        opacity: 1;
+        transform: rotate(0deg) scale(1); 
+    }
+    100% { 
+        scale: 1;
+        opacity: 0;
+        transform: rotate(-540deg) scale(1.4); 
+    }
+}
+
+@keyframes Quit1 {
+    0% { 
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+    }
+}
