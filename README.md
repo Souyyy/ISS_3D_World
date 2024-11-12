@@ -16,7 +16,7 @@
 ## Description
 
 ## Prérequis
-Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre machine :
+Avant de commencer, assurez-vous d'avoir une connexion haut débit et installé les outils suivants sur votre machine :
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Node.js** (version 14.0.0 ou supérieure recommandée) : [Lien du site de NodeJS](https://nodejs.org/en)
 
@@ -62,6 +62,8 @@ Ouvrez votre navigateur web et rendez-vous à l'adresse :
 ```http://localhost:3000/```
 
 ## Technologies
+Ce projet utilise plusieurs technologies modernes pour créer une expérience 3D interactive:
+
 <table align="center">
   <tbody>
     <tr>
@@ -85,6 +87,11 @@ Ouvrez votre navigateur web et rendez-vous à l'adresse :
     </tr>
   </tbody>
 </table>
+
+- Three.js est une bibliothèque JavaScript puissante qui simplifie la création et le rendu de graphiques 3D dans le navigateur.
+- glTF est le format standard pour les modèles 3D.
+- React est utilisé comme framework frontend principal.
+- JSON est utilisé pour la gestion des données dans l'application.
 
 ## APIs
 
@@ -121,6 +128,17 @@ Ce projet utilise l'API [wheretheiss.at](https://wheretheiss.at/w/developer) pou
 
 </table>
 
-## Knowns bugs
+## Bugs Connus
+### Problèmes Actuels
 - Duplication de l'ISS
-- Localisation Indisponible (Prbl appel API (limitation -> Resolution : Appel toute les 5 secondes ?)
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le modèle 3D de l'ISS apparaît parfois en double dans la scène
+
+- Localisation Indisponible
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problème lié aux appels API car limitation des requètes
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solution possible : Mettre en place un intervalle de 5 secondes entre les appels API
+
+## Licence
+Ce programme est sous licence MIT.
