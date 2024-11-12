@@ -2,8 +2,6 @@
   <img align="center" width="200" src="https://github.com/Souyyy/ISS_3D_World/blob/main/public/sigle.png" alt="ISS 3D World"/>
 </div>
 
-<h3 align="center">ReadMe à terminer</h3>
-
 <h3 align="center">ISS 3D World</h3>
 <p align="center">Visualisation 3D interactive de la Terre avec des données en temps réel d'une API sur la position de  l'ISS.</p>
 <a align="center" href="https://souyyy.github.io/ISS_3D_World/" target="_blank"><p><strong>DEMO</strong></p></a>
@@ -14,6 +12,13 @@
 </div>
 
 ## Description
+
+Ce projet est une visualisation 3D de l'ISS. Il permet de visualiser en temps réel la position de l'ISS en orbite autour de la Terre, avec une modélisation 3D de la planète et de son atmosphère. La Terre est représentée sous la forme d'une sphère, sur laquelle une texture 2D équirectangulaire est appliquée pour lui donner un aspect réaliste. Un effet de rotation de la Terre est également ajouté pour créer une dynamique visuelle et renforcer l'immersion dans l'espace.
+
+L'ISS est représentée par un objet 3D importée directement depuis le site de la NASA pour plus de  fidèlité de la station. La position de l'ISS est calculée et mise à jour à 1seconde d'intervalle grâce à une API qui fournit les coordonnées exactes de la station. Ces coordonnées sont ensuite utilisées pour placer l'ISS à sa position correcte sur la sphère, en tenant compte de son orbite et de son déplacement.
+
+L'application utilise également une sphère de taille beaucoup plus grande pour simuler l'effet du cosmos. La Terre, bien que centrée dans l'affichage, semble minuscule par rapport à l'étendue du cosmos, renforçant ainsi l'impact visuel de l'orbite de l'ISS.
+
 
 ## Prérequis
 Avant de commencer, assurez-vous d'avoir une connexion haut débit et installé les outils suivants sur votre machine :
