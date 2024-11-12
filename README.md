@@ -132,13 +132,13 @@ Ce projet utilise l'API [wheretheiss.at](https://wheretheiss.at/w/developer) pou
 ### Problèmes Actuels
 - Duplication de l'ISS
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le modèle 3D de l'ISS apparaît parfois en double dans la scène
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le modèle 3D de l'ISS apparaît parfois en double dans la scène.
 
 - Localisation Indisponible
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problème lié aux appels API car limitation des requètes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problème lié aux appels API car limitation des requètes.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Solution possible : Mettre en place un intervalle de 5 secondes entre les appels API
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Solution possible : Mettre en place un intervalle de 5 secondes entre les appels API.
 
 ## Licence
 Ce programme est sous licence MIT.
