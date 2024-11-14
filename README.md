@@ -35,7 +35,7 @@ Vous pouvez vérifier leurs versions installées avec les commandes suivantes de
    
 Ouvrez votre terminal et exécutez la commande suivante pour cloner le dépôt :
 
-```clone https://github.com/Souyyy/ISS_3D_World/```
+```git clone https://github.com/Souyyy/ISS_3D_World/```
 
 ### 2. Accéder au répertoire
 Naviguez dans le dossier du projet :
